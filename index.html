@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b1020" />
+    <meta
+      name="description"
+      content="Plan calm, owned responses to predictable framework security releases."
+    />
+    <meta property="og:title" content="PatchPulse Canvas" />
+    <meta
+      property="og:description"
+      content="A local-first security release readiness planner for small software teams."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>PatchPulse Canvas — security release readiness planner</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#planner">Skip to planner</a>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="PatchPulse Canvas home">
+        <span class="brand-mark" aria-hidden="true">P</span>
+        <span>PatchPulse Canvas</span>
+      </a>
+      <span class="local-badge">Local-first · no sign-in</span>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow">Security release readiness</p>
+        <h1 id="hero-title">Turn patch day into a <em>calm drill.</em></h1>
+        <p class="hero-copy">
+          Map ownership, rehearsal time, and response windows before the next
+          coordinated framework security release arrives.
+        </p>
+        <a class="primary-link" href="#planner">Build a readiness canvas <span aria-hidden="true">↓</span></a>
+      </section>
+
+      <section class="planner-shell" id="planner" aria-labelledby="planner-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Your canvas</p>
+            <h2 id="planner-title">Patch response plan</h2>
+          </div>
+          <p>Your data stays in this browser.</p>
+        </div>
+        <div class="workspace" id="app">
+          <p class="loading-state">Loading the planner…</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Designed for small teams that would rather rehearse than scramble.</p>
+      <a href="https://github.com/deonmenezes/patchpulse-canvas">View source</a>
+    </footer>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
